@@ -90,6 +90,19 @@ module.exports = (() => {
     justify-content: space-between;
 }
 
+.member-perm {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    background: var(--background-secondary-alt);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 22px;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+}
+
 .member-perms {
     display: flex;
     flex-wrap: wrap;
